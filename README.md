@@ -27,11 +27,11 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 
+```
 Program to print the text “Hello World”.
 Developed by: Niranjani.C
 Registeration Number : 212223220069
 
-```
 package com.example.test3;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
     protected void onStart()
-    {
+    {but cant able to get outut or instp and on destroy in pixel 9 devvice emuator guide me how to do
+
         super.onStart();
         Toast toast = Toast.makeText(getApplicationContext(),"onStart Called", Toast.LENGTH_LONG);
         toast.show();
@@ -89,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
 <img width="1917" height="1020" alt="Screenshot 2026-07-22 195738" src="https://github.com/user-attachments/assets/0c7f8121-c974-43d0-b6e1-7dff4e9c75ad" />
 <img width="1917" height="1022" alt="Screenshot 2026-07-22 195745" src="https://github.com/user-attachments/assets/49615c52-e0d5-40a9-a9ce-36f396cd7834" />
 <img width="1913" height="1020" alt="Screenshot 2026-07-22 194938" src="https://github.com/user-attachments/assets/34abd2ea-2738-4ec5-811b-5feb26be8eee" />
+<img width="1917" height="1007" alt="Screenshot 2026-07-27 134443" src="https://github.com/user-attachments/assets/48e29164-142e-44bd-8ae3-b9a473093036" />
+<img width="1917" height="1016" alt="Screenshot 2026-07-27 131347" src="https://github.com/user-attachments/assets/19656d2a-69f1-46b9-8a5b-1456f2a05a49" />
 
 
 
